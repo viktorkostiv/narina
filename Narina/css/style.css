@@ -1,0 +1,241 @@
+@font-face {
+	font-family: 'NATS';
+	src: url('../fonts/NATS.eot');
+	src: url('../fonts/NATS.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/NATS.woff2') format('woff2'),
+		url('../fonts/NATS.woff') format('woff'),
+		url('../fonts/NATS.ttf')  format('truetype'),
+		url('../fonts/NATS.svg#svgFontName') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+section{
+	padding-left:  300px;
+	padding-right: 300px;
+}
+h1{
+	font-family: 'Nanum Myeongjo';
+	width: 200px;
+	text-align: center;
+	margin: 0 auto;
+	font-weight: bold;
+	font-size: 32px;
+	color: #000000;
+	border-bottom: 1px solid #000000;
+}
+h2,h3,h4,h5{
+	text-transform: uppercase;
+	font-family: 'NATS';
+	letter-spacing: 0.27em;
+}
+p{
+	font-family: 'Nanum Myeongjo';
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0.27em;
+}
+.contact-form {
+    color: #fff;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-form button{
+    display: block;
+    margin-top: 27px;
+    width: 180px;
+    border:2px solid #fff;
+    border-radius: 22px;
+    font-family: 'NATS';
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 53px auto 0;
+    color:#fff;
+    background:none;
+    line-height: 100%;
+    transition: all 0.3s ease;
+}
+button:hover{
+    background:#fff;
+    color:rgba(105, 41, 143, 0.89);
+}
+.contact-input {
+    margin-top: 27px;
+    display: block;
+    padding: 9px 13px;
+    font-size: 20px;
+    font-family: 'NATS';
+    line-height: 120%;
+}
+textarea.contact-input{
+    resize: none;
+    height: 124px;
+    padding-right: 70px;
+}
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 0;
+	background: rgba(255, 255, 255, 0.78);
+}
+.logo {
+	display: block;
+	width: 150px;
+	margin: auto;
+}
+.head {
+	height: 100vh;
+	background:url(../img/bg.jpg)no-repeat center / cover;
+}
+.shop-list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: linear-gradient(269.97deg, #69298F 10.58%, rgba(105, 41, 143, 0.413814) 79.07%, rgba(105, 41, 143, 0) 100.49%);
+}
+.shop-list.two{
+	color:#FFFFFF;
+	background: linear-gradient(90.03deg, #69298F 4.38%, rgba(105, 41, 143, 0.413814) 81.84%, rgba(105, 41, 143, 0) 106.06%);
+}
+.shop-item {
+	width: 175px;
+	height: 119px;
+	object-fit: cover;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 7px #FFFFFF;
+}
+.shop-item img{
+	width: 175px;
+	height: 119px;
+	object-fit: contain;
+}
+.shop-list h2{
+	width: 300px;
+	text-align: center;
+}
+.about {
+	background: rgba(105, 41, 143, 0.32);
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.taxt {
+	margin: 60px 0 0;
+	display: flex;
+	justify-content: space-evenly;
+}
+.taxt p{
+	width: 35%;
+}
+.sale {
+	position: relative;
+	padding: 50px 0 30px;
+	min-height: 40vh;
+	color:#FFFFFF;
+	text-align: center;
+	background: #69298F;
+}
+.sale div{
+	margin-top: 40px;
+	background:url(../img/sekschop\ 1.png)no-repeat center / cover;
+	display: block;
+	width: 100%;
+	height: 20vh;
+	left: 0;
+	bottom: 40px;
+}
+.sponsors {
+	margin: 70px 0;
+	text-align: center;
+}
+.items{
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.item {
+	width: 225px;
+}
+.item h3{
+	margin-top: 20px;
+}
+.form {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	background: rgba(105, 41, 143, 0.89);
+}
+.form form{
+	width: 50%;
+	margin: auto;
+}
+footer{
+	padding: 20px;
+}
+@media (max-width: 768px){
+	section{
+		padding: 0 15px;
+	}
+	.shop-list{
+		flex-direction: column;
+	}
+	.shop-list div{
+		margin: 20px 0;
+	}
+	.taxt{
+		flex-direction: column;
+	}
+	.taxt p{
+		margin: 10px 0;
+		width: 100%;
+	}
+	.items{
+		flex-direction: column;
+		align-items: center;
+	}
+	.item{
+		margin: 40px 0;
+	}
+	.form form{
+		width: 80%;
+		margin: auto;
+	}
+}
